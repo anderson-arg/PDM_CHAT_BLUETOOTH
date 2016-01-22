@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pdm.ifpb.edu.br.pdm_chat.TelaConversa">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Sair"
+        android:id="@+id/btnSair"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="9"
+        android:id="@+id/listView2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="7" />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/btnEnviar"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+</LinearLayout>
